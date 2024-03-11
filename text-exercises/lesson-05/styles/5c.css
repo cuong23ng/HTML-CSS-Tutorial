@@ -1,0 +1,44 @@
+p {
+  font-family: Verdana;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 33px;
+  margin-bottom: 3px;
+}
+
+.subtitle {
+  color: gray;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.start-button {
+  background-color: rgb(69, 138, 56);
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius: 11px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 37px;
+  padding-right: 37px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.start-button:hover {
+  opacity: 0.8;
+}
+
+.start-button:active {
+  opacity: 0.4;
+}

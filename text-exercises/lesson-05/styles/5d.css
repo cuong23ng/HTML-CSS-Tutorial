@@ -1,0 +1,28 @@
+p {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 0.3;
+}
+
+.subtitle {
+  font-size: 31px;
+  margin-bottom: 30px;
+}
+
+.link-text {
+  font-size: 31px;
+  color: rgb(65, 95, 177);
+  cursor: pointer;
+} 
+
+.link-text:hover {
+  text-decoration: underline;
+}

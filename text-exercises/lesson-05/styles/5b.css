@@ -1,0 +1,18 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.arial-text-1 {
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.arial-text-2 {
+  font-size: 35px;
+  color: red;
+  font-style: italic;
+}

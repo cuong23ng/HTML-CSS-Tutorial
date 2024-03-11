@@ -1,0 +1,40 @@
+p {
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.account {
+  color: rgb(99, 99, 99);
+  cursor: pointer;
+}
+
+.time {
+  color: rgb(99, 99, 99);
+  cursor: pointer;
+}
+
+.tweet {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.highlight-account {
+  color: rgb(67, 133, 207);
+  cursor: pointer;
+}
+
+.highlight-account:hover {
+  text-decoration: underline;
+}
+
+.highlight-account:active {
+  opacity: 0.8;
+}

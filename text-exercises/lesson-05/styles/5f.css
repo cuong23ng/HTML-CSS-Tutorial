@@ -1,0 +1,21 @@
+p {
+  font-family: Arial;
+  font-size: 30px;
+  color: rgb(73, 73, 73);
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.price {
+  color: black;
+  font-size: 60px;
+  margin-right: 7px;
+}
+
+.change {
+  color: green
+}
+
+.stats {
+  color: red;
+}

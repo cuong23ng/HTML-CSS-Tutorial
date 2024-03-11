@@ -1,0 +1,55 @@
+p {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.noti {
+  font-size: 22px;
+  color: rgb(255, 123, 0);
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+.product-name {
+  font-size: 40px;
+  color: rgb(27, 27, 27);
+  font-weight: bolder;;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 28px;
+  color: rgb(78, 78, 78);
+  margin-bottom: 20px
+}
+
+.buy-button {
+  background-color: rgb(49, 121, 202);
+  color: white;
+  font-weight: bolder;
+  font-size: 22px;
+  border: none;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 21px;
+  padding-right: 21px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.buy-button:hover {
+  opacity: 0.7;
+}
+
+.buy-button:active {
+  opacity: 0.5;
+}

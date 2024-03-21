@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9f Exercise</title>
+    <style>
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 6px;
+        cursor: pointer;
+        font-family: Arial;
+      }
+      .name {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 3px;
+      }
+      .mutualfr {
+        font-size: 14px;
+        margin-bottom: 9px;
+        color: rgb(91, 91, 91)
+      }
+      .thumbnail {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        display: block;
+        margin-bottom: 11px;
+      }
+      .addfr-button {
+        font-size: 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+        background-color: rgb(75, 111, 218);
+        color: white;
+        border-style: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: 0.15s;
+        margin-left: 6px;
+      }
+      .addfr-button:hover {
+        opacity: 0.9;
+      }
+      .addfr-button:active {
+        opacity: 0.8;
+      }
+      .box-info {
+        box-shadow: 0px 2px 20px rgba(150, 150, 150, 100);
+        display: inline-block;
+        padding-bottom: 8px;
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-info">
+      <img class="thumbnail" src="thumbnails/cat.webp">
+      <p class="name">Oliver</p>
+      <p class="mutualfr">2 mutual friends</p>
+      <button class="addfr-button">Add Friend</button>
+    </div>
+  </body>
+</html>

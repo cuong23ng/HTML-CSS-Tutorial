@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>10e Exercise</title>
+    <style>
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Arial;
+      }
+
+      .friends-grid {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        align-items: center;
+        column-gap: 20px;
+      }
+
+      .account-preview {
+        box-shadow: 0px 2px 20px rgba(150, 150, 150, 100);
+      }
+
+      .avatar-row {
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 7px;
+      }
+
+      .avatar {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+
+      .account-name {
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        margin-bottom: 6px;
+        margin-left: 6px;
+      }
+
+      .mutualfr {
+        margin-left: 6px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 1fr 114px;
+        cursor: pointer;
+        align-items: center;
+      }
+
+      .mutualfr-number {
+        font-size: 15px;
+        color: rgb(91, 91, 91);
+      }
+
+      .avt-mutualfr {
+        width: 25px;
+        vertical-align: middle;
+      }
+
+      .avt-mutualfr-profile {
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      .addfr-button {
+        font-size: 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+        background-color: rgb(75, 111, 218);
+        color: white;
+        border-style: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: 0.15s;
+        margin-left: 6px;
+        margin-bottom: 8px;
+      }
+
+      .addfr-button:hover {
+        opacity: 0.9;
+      }
+
+      .addfr-button:active {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="friends-grid">
+      <div class="account-preview">
+        <div class="avatar-row">
+          <img class="avatar" src="thumbnails/cat.webp">
+        </div>
+        <div class="account-name">
+          <p>Oliver</p>
+        </div>
+        <div class="mutualfr">
+          <div class="avt-mutualfr">
+            <img class="avt-mutualfr-profile" src="thumbnails/channel-1.jpeg">
+          </div>
+          <div class="mutualfr-number">
+            <p>2 mutual friends</p>
+          </div>
+        </div>
+        <div>
+          <button class="addfr-button">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="account-preview">
+        <div class="avatar-row">
+          <img class="avatar" src="thumbnails/cat2.jpg">
+        </div>
+        <div class="account-name">
+          <p>Mimi</p>
+        </div>
+        <div class="mutualfr">
+          <div class="avt-mutualfr">
+            <img class="avt-mutualfr-profile" src="thumbnails/channel-1.jpeg">
+          </div>
+          <div class="mutualfr-number">
+            <p>3 mutual friends</p>
+          </div>
+        </div>
+        <div>
+          <button class="addfr-button">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="account-preview">
+        <div class="avatar-row">
+          <img class="avatar" src="thumbnails/cat3.jpg">
+        </div>
+        <div class="account-name">
+          <p>Rex</p>
+        </div>
+        <div class="mutualfr">
+          <div class="avt-mutualfr">
+            <img class="avt-mutualfr-profile" src="thumbnails/channel-1.jpeg">
+          </div>
+          <div class="mutualfr-number">
+            <p>
+              4 mutual friends
+            </p>
+          </div>
+        </div>
+        <div>
+          <button class="addfr-button">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

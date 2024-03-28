@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      12f Exercise
+    </title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      p {
+        font-family: Arial;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 15px;
+        margin-right: 30px;
+      }
+      .menu-bar {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(120, 82, 178);
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      
+      .search-bar {
+        flex: 1;
+        height: 27px;
+        border-radius: 15px;
+        border-style: none;
+        padding-left: 18px;
+        max-width: 500px;
+      }
+
+      .download-button {
+        background-color: transparent;
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+        color: white;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-right: 15px;
+        margin-left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu-bar">
+      <p>Home</p>
+      <input class="search-bar" type="search" placeholder="Search">
+      <button class="download-button">Download</button>
+    </div>
+  </body>
+</html>

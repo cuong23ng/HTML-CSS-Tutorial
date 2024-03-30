@@ -1,5 +1,5 @@
 p {
-  font-family: Arial;
+  font-family: Arial, 'Times New Roman', Times, serif;
   font-size: 20px;
   color: black;
   margin-top: 0;
@@ -22,10 +22,6 @@ p {
   width: 54px;
   height: 54px;
   border-radius: 27px;
-}
-
-.column2 {
-
 }
 
 .name {

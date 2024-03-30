@@ -1,0 +1,50 @@
+body {
+  margin-bottom: 2000px;
+}
+
+.sidebar {
+  background-color: rgb(61, 61, 61);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-column {
+  width: 52px;
+  background-color: rgb(41, 41, 41);
+  padding: 12px;
+}
+
+.picture-profile {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.right-column {
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  font-family: Arial;
+  font-size: 15px;
+  color: rgb(134, 134, 134);
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.entity {
+  margin-bottom: 15px;
+}

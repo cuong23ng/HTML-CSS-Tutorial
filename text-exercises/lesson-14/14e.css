@@ -1,0 +1,59 @@
+body {
+  margin-bottom: 2000px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.picture-profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+
+.name {
+  margin: 0;
+  margin-left: 10px;
+  display: inline-block;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.button-1 {
+  background-color: rgb(39, 140, 255);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 95px;
+  border-radius: 5px;
+}
+
+.button-2 {
+  background-color: rgb(228, 228, 228);
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 95px;
+  border-radius: 5px;
+}
